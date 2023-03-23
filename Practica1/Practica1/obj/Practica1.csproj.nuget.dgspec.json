@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Uni\\1ºV\\Fp2\\Practicas\\Practica1\\Practica1\\Practica1.csproj": {}
+    "C:\\Uni\\1ºV\\MAP\\Repo2\\Practica-1\\Practica1\\Practica1\\Practica1.csproj": {}
   },
   "projects": {
-    "C:\\Uni\\1ºV\\Fp2\\Practicas\\Practica1\\Practica1\\Practica1.csproj": {
+    "C:\\Uni\\1ºV\\MAP\\Repo2\\Practica-1\\Practica1\\Practica1\\Practica1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Uni\\1ºV\\Fp2\\Practicas\\Practica1\\Practica1\\Practica1.csproj",
+        "projectUniqueName": "C:\\Uni\\1ºV\\MAP\\Repo2\\Practica-1\\Practica1\\Practica1\\Practica1.csproj",
         "projectName": "Practica1",
-        "projectPath": "C:\\Uni\\1ºV\\Fp2\\Practicas\\Practica1\\Practica1\\Practica1.csproj",
+        "projectPath": "C:\\Uni\\1ºV\\MAP\\Repo2\\Practica-1\\Practica1\\Practica1\\Practica1.csproj",
         "packagesPath": "C:\\Users\\Cristina\\.nuget\\packages\\",
-        "outputPath": "C:\\Uni\\1ºV\\Fp2\\Practicas\\Practica1\\Practica1\\obj\\",
+        "outputPath": "C:\\Uni\\1ºV\\MAP\\Repo2\\Practica-1\\Practica1\\Practica1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cristina\\AppData\\Roaming\\NuGet\\NuGet.Config",
