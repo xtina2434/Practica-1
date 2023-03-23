@@ -222,7 +222,7 @@ namespace Practica1
            if(nave.fil>-1)     //si la nave no ha colisionado, es decir, se encuentra en el area de juego
            {
                 Console.SetCursorPosition(nave.col * 2, nave.fil); //se posiciona el cursor en la respectiva fila y columna de la nave
-                Console.ForegroundColor = ConsoleColor.Green;      //se pinta la nave de verde
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;      //se pinta la nave de verde
                 Console.BackgroundColor = ConsoleColor.Black;      //se pinta el fondo de negro
                 Console.Write("=>");//nave
                
@@ -383,8 +383,8 @@ namespace Practica1
            //metodo que llama a todos los metodos anteriores de colisiones
            ColNaveTunel(tunel, ref nave, ref colisiones);
            ColBalasTunel(tunel, ref balas, ref colisiones);
-           ColNaveEnemigos(nave, ref enemigos, ref colisiones);
-           ColBalasEnemigos(balas, ref enemigos, ref colisiones);
+           ColNaveEnemigos(ref nave, ref enemigos, ref colisiones);
+           ColBalasEnemigos(ref balas, ref enemigos, ref colisiones);
         }
         static void GuardaPartida(Tunel tunel, Entidad nave, ref GrEntidades enemigos, ref GrEntidades balas)
         {
